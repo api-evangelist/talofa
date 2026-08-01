@@ -1,8 +1,13 @@
 aid: talofa
 name: Talofa
-description: 'Talofa is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Talofa Games is a consumer mobile game studio, backed by Insight Partners,
+  that builds location-based and fitness-driven games where real-world movement powers
+  play. Its titles include Run Legends, a cooperative running RPG for iOS and Android
+  in which players'' real-world runs and steps fuel monster battles, and Monster Walk,
+  a walking game currently in closed beta. The company distributes through the Apple
+  App Store and Google Play and runs its community on Discord. As a consumer game
+  publisher it exposes no public developer API, SDK, or documentation surface; this
+  API Evangelist profile tracks it as a company with no API footprint.'
 url: https://raw.githubusercontent.com/api-evangelist/talofa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.talofagames.com/staminaIcon.png
 tags:
 - Company
 - Consumer
+- Gaming
+- Games
+- Mobile
+- Fitness
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/talofa-domain-security.yml
 - type: Website
   url: https://www.talofagames.com/
+- type: PrivacyPolicy
+  url: https://talofagames.com/privacy
+- type: Support
+  url: https://discord.gg/6zePBvKd2X
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
